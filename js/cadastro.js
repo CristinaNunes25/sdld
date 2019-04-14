@@ -36,7 +36,9 @@ function checkingStudent() {
 
 /*------ CLASS(turma) ------*/
 
-function checkingClass() {
+function checkingClass(e) {
+    //e.preventDefault();
+
     var inputsClass =  document.querySelectorAll('input.checkclass-js');
     var errorMsgClass = document.querySelectorAll('p.errorcheckclass-js');
     
